@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 50px; }
+  ul li {
+    display: inline-block; }
+    ul li a {
+      text-decoration: none;
+      color: violet;
+      padding: 20px;
+      background-color: pink; }
+    ul li a:hover {
+      color: white;
+      background-color: #a34958; }
+
+body {
+  background-color: #835a8d; }
+
+h1 {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  padding: 15px; }
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto; }
+
+section {
+  float: left;
+  width: 37.5%;
+  height: 400px;
+  background-color: orangered;
+  border: solid black; }
+
+aside {
+  float: left;
+  width: 50%;
+  height: 400px;
+  background-color: orange;
+  border: solid black; }

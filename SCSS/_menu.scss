@@ -1,0 +1,22 @@
+@import "colores";
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 50px;
+    li{
+        display: inline-block;
+        
+        a{
+            text-decoration: none;
+            color:$color;
+            padding: 20px;
+            background-color: pink;
+        
+        }
+        a:hover{
+            color: white;
+            background-color: rgb(163, 73, 88);
+        }
+    }
+}
